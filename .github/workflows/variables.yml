@@ -2,7 +2,8 @@ name: Workflow Demo
 
 on: 
   push
-
+vars:
+  ACCESS_ID: kode-kloud-123456
 env:
   ACCESS_ID: ${{ vars.ACCESS_ID }}
 
